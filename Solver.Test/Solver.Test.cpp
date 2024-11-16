@@ -11,6 +11,7 @@ namespace SolverTest
 		
 		TEST_METHOD(TestMethod1)
 		{
+
 		}
 	};
 }
