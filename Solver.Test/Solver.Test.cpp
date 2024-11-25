@@ -22,7 +22,7 @@ namespace SolverTest
         public:
             TEST_METHOD(AddElements_IntData_Success)
             {
-                List<int> list; // Указываем тип шаблона
+                List<int> list; 
                 list.add(1);
                 list.add(2);
                 list.add(3);
@@ -34,7 +34,7 @@ namespace SolverTest
 
             TEST_METHOD(RemoveElements_IntData_Success)
             {
-                List<int> list; // Указываем тип шаблона
+                List<int> list; 
                 list.add(1);
                 list.add(2);
                 list.add(3);
@@ -46,7 +46,7 @@ namespace SolverTest
 
             TEST_METHOD(GetElement_IntData_Success)
             {
-                List<int> list; // Указываем тип шаблона
+                List<int> list; 
                 list.add(1);
                 list.add(2);
                 list.add(3);
@@ -57,7 +57,7 @@ namespace SolverTest
 
             TEST_METHOD(Resize_IntData_Success)
             {
-                List<int> list; // Указываем тип шаблона
+                List<int> list; 
                 for (int i = 0; i < 100; ++i) 
                 {
                     list.add(i);
@@ -68,7 +68,7 @@ namespace SolverTest
 
             TEST_METHOD(ToString_IntData_Success)
             {
-                List<int> list; // Указываем тип шаблона
+                List<int> list; 
                 list.add(1);
                 list.add(2);
                 list.add(3);
@@ -77,7 +77,7 @@ namespace SolverTest
 
             TEST_METHOD(InputElements_IntData_Success)
             {
-                List<int> list; // Указываем тип шаблона
+                List<int> list; 
                 std::istringstream input("3\n4\n5\n6\n");
                 std::streambuf* cinbuf = std::cin.rdbuf(input.rdbuf()); 
                 list.inputElements();
@@ -90,7 +90,7 @@ namespace SolverTest
 
             TEST_METHOD(RemoveElementByUser_IntData_Success)
             {
-                List<int> list; // Указываем тип шаблона
+                List<int> list; 
                 list.add(1);
                 list.add(2);
                 list.add(3);
