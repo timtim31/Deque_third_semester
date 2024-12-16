@@ -118,8 +118,6 @@ public:
     void removeElementByUser(std::istream& is);
 };
 
-// === Реализация ===
-
 template <typename T>
 List<T>::List() : data(nullptr), size(0), capacity(0) {}
 
